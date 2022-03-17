@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Righteous', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, #1b1317, #3c2433, #5e3754, #7f4c7b, #9f63a6, #a161a2, #a3609e, #a55e9a, #834669, #5c3242, #341f24, #0c0b0b);
+  color: white;
+}
+a {
+  color: white;
+  /* text-decoration: none; */
+}
+h1 {
+  text-align: center;
+  margin: 1rem;
 }
 
 code {
